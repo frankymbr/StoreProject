@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreProject.Domain", "StoreProject.Domain\StoreProject.Domain.csproj", "{D30CB260-A985-4077-BE9A-6309CFB76641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreProject.Application", "StoreProject.Application\StoreProject.Application.csproj", "{6A9C882E-DA51-4A14-9CA4-8B633AF9F49A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreProject.Infrastructure", "StoreProject.Infrastructure\StoreProject.Infrastructure.csproj", "{FA559DA2-63DC-4B8E-9FD1-5FDECA3BEB76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreProject.API", "StoreProject.API\StoreProject.API.csproj", "{1028DAFC-F68F-4EA7-B680-808C69ADF294}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D30CB260-A985-4077-BE9A-6309CFB76641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30CB260-A985-4077-BE9A-6309CFB76641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30CB260-A985-4077-BE9A-6309CFB76641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30CB260-A985-4077-BE9A-6309CFB76641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9C882E-DA51-4A14-9CA4-8B633AF9F49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9C882E-DA51-4A14-9CA4-8B633AF9F49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9C882E-DA51-4A14-9CA4-8B633AF9F49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9C882E-DA51-4A14-9CA4-8B633AF9F49A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA559DA2-63DC-4B8E-9FD1-5FDECA3BEB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA559DA2-63DC-4B8E-9FD1-5FDECA3BEB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA559DA2-63DC-4B8E-9FD1-5FDECA3BEB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA559DA2-63DC-4B8E-9FD1-5FDECA3BEB76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1028DAFC-F68F-4EA7-B680-808C69ADF294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1028DAFC-F68F-4EA7-B680-808C69ADF294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1028DAFC-F68F-4EA7-B680-808C69ADF294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1028DAFC-F68F-4EA7-B680-808C69ADF294}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
