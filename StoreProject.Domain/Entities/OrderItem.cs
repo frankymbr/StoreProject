@@ -9,8 +9,18 @@ public class OrderItem
     public int OrderId { get; set; }
     public int ProductId { get; set; }
     public decimal Quantity { get; set; }
+    /// <summary>
+    /// Unit price before discount.
+    /// </summary>
     public decimal UnitPrice { get; set; }
+    /// <summary>
+    /// Discount amount applied to this line (total, not per unit).
+    /// For example: 1.50 means 1.50 off this line.
+    /// </summary>
     public decimal Discount { get; set; }
+    /// <summary>
+    /// Line subtotal after discount.
+    /// </summary>
     public decimal SubTotal { get; set; }
     
     //Navigation properties
